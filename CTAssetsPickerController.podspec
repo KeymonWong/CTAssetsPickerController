@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         		= "CTAssetsPickerController"
+  s.name         		= "YHAssetsPickerController"
   s.version      		= "2.8.0"
   s.summary      		= "iOS control that allows picking multiple photos and videos from user's photo library."
 
@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
     	                	It uses **ARC**. Requires **AssetsLibrary** and **MediaPlayer** frameworks.
         	           	DESC
 
-  s.homepage     		= "https://github.com/chiunam/CTAssetsPickerController"
+  s.homepage     		= "https://github.com/eleven-huang/CTAssetsPickerController"
   s.screenshot  		= "https://raw.github.com/chiunam/CTAssetsPickerController/master/Screenshot.png"
   s.license     		= { :type => 'MIT', :file => 'LICENSE' }
-  s.author      		= { "Clement T" => "chiunam@gmail.com" }
+  s.author      		= { "Yijun Hunag" => "11.eleven.huang@gmail.com" }
   s.platform     		= :ios, '7.0'
-  s.source       		= { :git => "https://github.com/chiunam/CTAssetsPickerController.git", :tag => "v2.8.0" }
+  s.source       		= { :git => "https://github.com/eleven-huang/CTAssetsPickerController.git", :tag => "v2.8.0" }
   s.source_files 		= "CTAssetsPickerController/*.{h,m}"
   s.resource     		= "CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png"
   s.frameworks		    	= "AssetsLibrary", "MediaPlayer"
