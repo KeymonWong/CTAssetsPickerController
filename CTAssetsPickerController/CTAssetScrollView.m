@@ -397,7 +397,7 @@ NSString * const CTAssetScrollViewTappedNotification = @"CTAssetScrollViewTapped
     [button setImage:image forState:UIControlStateNormal];
     [button addTarget:self action:@selector(playVideo:) forControlEvents:UIControlEventTouchUpInside];
     
-    button.accessibilityLabel = NSLocalizedStringFromTable(@"Play", @"YHAssetsPickerController", nil);
+    button.accessibilityLabel = NSLocalizedStringFromTable(@"Play", @"Localizable", nil);
     button.translatesAutoresizingMaskIntoConstraints = NO;
     
     self.playButton = button;

@@ -78,7 +78,7 @@
 {
     NSString *label = [self.assetsGroup valueForProperty:ALAssetsGroupPropertyName];
     
-    return [label stringByAppendingFormat:NSLocalizedStringFromTable(@"%ld Photos", @"YHAssetsPickerController", nil), (long)self.assetsGroup.numberOfAssets];
+    return [label stringByAppendingFormat:NSLocalizedStringFromTable(@"%ld Photos", @"Localizable", nil), (long)self.assetsGroup.numberOfAssets];
 }
 
 @end

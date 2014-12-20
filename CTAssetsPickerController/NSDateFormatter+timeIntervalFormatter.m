@@ -53,22 +53,22 @@
         string = [string stringByAppendingFormat:@"%ld %@",
                   (long)components.hour,
                   (components.hour > 1) ?
-                  NSLocalizedStringFromTable(@"hours", @"YHAssetsPickerController", nil) :
-                  NSLocalizedStringFromTable(@"hour", @"YHAssetsPickerController", nil)];
+                  NSLocalizedStringFromTable(@"hours", @"Localizable", nil) :
+                  NSLocalizedStringFromTable(@"hour", @"Localizable", nil)];
     
     if (components.minute > 0)
         string = [string stringByAppendingFormat:@"%ld %@",
                   (long)components.minute,
                   (components.minute > 1) ?
-                  NSLocalizedStringFromTable(@"minutes", @"YHAssetsPickerController", nil) :
-                  NSLocalizedStringFromTable(@"minute", @"YHAssetsPickerController", nil)];
+                  NSLocalizedStringFromTable(@"minutes", @"Localizable", nil) :
+                  NSLocalizedStringFromTable(@"minute", @"Localizable", nil)];
     
     if (components.second > 0)
         string = [string stringByAppendingFormat:@"%ld %@",
                   (long)components.second,
                   (components.second > 1) ?
-                  NSLocalizedStringFromTable(@"seconds", @"YHAssetsPickerController", nil) :
-                  NSLocalizedStringFromTable(@"second", @"YHAssetsPickerController", nil)];
+                  NSLocalizedStringFromTable(@"seconds", @"Localizable", nil) :
+                  NSLocalizedStringFromTable(@"second", @"Localizable", nil)];
     
     return string;
 }

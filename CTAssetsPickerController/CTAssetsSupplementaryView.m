@@ -83,11 +83,11 @@
     NSInteger numberOfPhotos = [assets filteredArrayUsingPredicate:[self predicateOfAssetType:ALAssetTypePhoto]].count;
     
     if (numberOfVideos == 0)
-        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Photos", @"YHAssetsPickerController", nil), (long)numberOfPhotos];
+        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Photos", @"Localizable", nil), (long)numberOfPhotos];
     else if (numberOfPhotos == 0)
-        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Videos", @"YHAssetsPickerController", nil), (long)numberOfVideos];
+        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Videos", @"Localizable", nil), (long)numberOfVideos];
     else
-        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Photos, %ld Videos", @"YHAssetsPickerController", nil), (long)numberOfPhotos, (long)numberOfVideos];
+        self.label.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"%ld Photos, %ld Videos", @"Localizable", nil), (long)numberOfPhotos, (long)numberOfVideos];
 }
 
 - (NSPredicate *)predicateOfAssetType:(NSString *)type

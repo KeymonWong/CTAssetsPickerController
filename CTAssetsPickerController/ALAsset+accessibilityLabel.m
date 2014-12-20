@@ -46,7 +46,7 @@
     [accessibilityLabels addObject:[self dateAccessibilityLabel]];
     
     if (!self.defaultRepresentation)
-        [accessibilityLabels addObject:NSLocalizedStringFromTable(@"Not available", @"YHAssetsPickerController", nil)];
+        [accessibilityLabels addObject:NSLocalizedStringFromTable(@"Not available", @"Localizable", nil)];
     
     return [accessibilityLabels componentsJoinedByString:@", "];
 }
@@ -55,10 +55,10 @@
 - (NSString *)typeAccessibilityLabel
 {
     if ([self isVideo]) {
-        return NSLocalizedStringFromTable(@"Video", @"YHAssetsPickerController", nil);
+        return NSLocalizedStringFromTable(@"Video", @"Localizable", nil);
     }
 
-    return NSLocalizedStringFromTable(@"Photo", @"YHAssetsPickerController", nil);
+    return NSLocalizedStringFromTable(@"Photo", @"Localizable", nil);
 }
 
 - (NSString *)durationAccessibilityLabel
@@ -73,10 +73,10 @@
     CGSize dimension = self.defaultRepresentation.dimensions;
     
     if (dimension.height >= dimension.width) {
-        return NSLocalizedStringFromTable(@"Portrait", @"YHAssetsPickerController", nil);
+        return NSLocalizedStringFromTable(@"Portrait", @"Localizable", nil);
     }
     
-    return NSLocalizedStringFromTable(@"Landscape", @"YHAssetsPickerController", nil);
+    return NSLocalizedStringFromTable(@"Landscape", @"Localizable", nil);
 }
 
 - (NSString *)dateAccessibilityLabel

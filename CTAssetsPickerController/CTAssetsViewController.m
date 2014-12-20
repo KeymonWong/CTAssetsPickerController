@@ -138,7 +138,7 @@ NSString * const CTAssetsSupplementaryViewIdentifier = @"CTAssetsSupplementaryVi
 - (void)setupButtons
 {
     self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Done", @"YHAssetsPickerController", nil)
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Done", @"Localizable", nil)
                                      style:UIBarButtonItemStyleDone
                                     target:self.picker
                                     action:@selector(finishPickingAssets:)];

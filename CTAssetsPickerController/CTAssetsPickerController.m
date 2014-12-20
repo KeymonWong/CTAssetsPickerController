@@ -280,9 +280,9 @@ NSString * const CTAssetsPickerSelectedAssetsChangedNotification = @"CTAssetsPic
     NSString *format;
     
     if ([self isCameraDeviceAvailable])
-        format = NSLocalizedStringFromTable(@"You can take photos and videos using the camera, or sync photos and videos onto your %@\nusing iTunes.", @"YHAssetsPickerController", nil);
+        format = NSLocalizedStringFromTable(@"You can take photos and videos using the camera, or sync photos and videos onto your %@\nusing iTunes.", @"Localizable", nil);
     else
-        format = NSLocalizedStringFromTable(@"You can sync photos and videos onto your %@ using iTunes.", @"YHAssetsPickerController", nil);
+        format = NSLocalizedStringFromTable(@"You can sync photos and videos onto your %@ using iTunes.", @"Localizable", nil);
     
     return [NSString stringWithFormat:format, self.deviceModel];
 }
@@ -367,11 +367,11 @@ NSString * const CTAssetsPickerSelectedAssetsChangedNotification = @"CTAssetsPic
     UILabel *title =
     [self auxiliaryLabelWithFont:[UIFont boldSystemFontOfSize:17.0]
                            color:[UIColor colorWithRed:129.0/255.0 green:136.0/255.0 blue:148.0/255.0 alpha:1]
-                            text:NSLocalizedStringFromTable(@"This app does not have access to your photos or videos.", @"YHAssetsPickerController", nil)];
+                            text:NSLocalizedStringFromTable(@"This app does not have access to your photos or videos.", @"Localizable", nil)];
     UILabel *message =
     [self auxiliaryLabelWithFont:[UIFont systemFontOfSize:14.0]
                            color:[UIColor colorWithRed:129.0/255.0 green:136.0/255.0 blue:148.0/255.0 alpha:1]
-                            text:NSLocalizedStringFromTable(@"You can enable access in Privacy Settings.", @"YHAssetsPickerController", nil)];
+                            text:NSLocalizedStringFromTable(@"You can enable access in Privacy Settings.", @"Localizable", nil)];
     
     UIView *centerView = [self centerViewWithViews:@[padlock, title, message]];
     
@@ -386,7 +386,7 @@ NSString * const CTAssetsPickerSelectedAssetsChangedNotification = @"CTAssetsPic
     UILabel *title =
     [self auxiliaryLabelWithFont:[UIFont systemFontOfSize:26.0]
                            color:[UIColor colorWithRed:153.0/255.0 green:153.0/255.0 blue:153.0/255.0 alpha:1]
-                            text:NSLocalizedStringFromTable(@"No Photos or Videos", @"YHAssetsPickerController", nil)];
+                            text:NSLocalizedStringFromTable(@"No Photos or Videos", @"Localizable", nil)];
     
     UILabel *message =
     [self auxiliaryLabelWithFont:[UIFont systemFontOfSize:18.0]
@@ -425,17 +425,17 @@ NSString * const CTAssetsPickerSelectedAssetsChangedNotification = @"CTAssetsPic
     NSString *format;
     
     if (photoSelected && videoSelected)
-        format = NSLocalizedStringFromTable(@"%ld Items Selected", @"YHAssetsPickerController", nil);
+        format = NSLocalizedStringFromTable(@"%ld Items Selected", @"Localizable", nil);
     
     else if (photoSelected)
         format = (self.selectedAssets.count > 1) ?
-        NSLocalizedStringFromTable(@"%ld Photos Selected", @"YHAssetsPickerController", nil) :
-        NSLocalizedStringFromTable(@"%ld Photo Selected", @"YHAssetsPickerController", nil);
+        NSLocalizedStringFromTable(@"%ld Photos Selected", @"Localizable", nil) :
+        NSLocalizedStringFromTable(@"%ld Photo Selected", @"Localizable", nil);
     
     else if (videoSelected)
         format = (self.selectedAssets.count > 1) ?
-        NSLocalizedStringFromTable(@"%ld Videos Selected", @"YHAssetsPickerController", nil) :
-        NSLocalizedStringFromTable(@"%ld Video Selected", @"YHAssetsPickerController", nil);
+        NSLocalizedStringFromTable(@"%ld Videos Selected", @"Localizable", nil) :
+        NSLocalizedStringFromTable(@"%ld Video Selected", @"Localizable", nil);
     
     return [NSString stringWithFormat:format, (long)self.selectedAssets.count];
 }
