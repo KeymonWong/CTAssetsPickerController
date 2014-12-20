@@ -121,14 +121,14 @@
     if (self.picker.showsCancelButton)
     {
         self.navigationItem.leftBarButtonItem =
-        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Cancel", nil)
+        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Cancel", @"Localizable", nil)
                                          style:UIBarButtonItemStylePlain
                                         target:self.picker
                                         action:@selector(dismiss:)];
     }
     
     self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", nil)
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Done", @"Localizable", nil)
                                      style:UIBarButtonItemStyleDone
                                     target:self.picker
                                     action:@selector(finishPickingAssets:)];
