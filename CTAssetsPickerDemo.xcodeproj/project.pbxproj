@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A5A419E31A45847600F336EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A419E51A45847600F336EE /* Localizable.strings */; };
 		AD58798418E54F0C00B5773D /* CTAssetsGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58798318E54F0C00B5773D /* CTAssetsGroupViewController.m */; };
 		AD58798718E550B000B5773D /* CTAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58798618E550B000B5773D /* CTAssetsViewController.m */; };
 		AD58798A18E551E000B5773D /* CTAssetsGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58798918E551E000B5773D /* CTAssetsGroupViewCell.m */; };
@@ -53,6 +54,10 @@
 
 /* Begin PBXFileReference section */
 		A5A419E01A456A5C00F336EE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CTAssetsPickerController.strings; sourceTree = "<group>"; };
+		A5A419E41A45847600F336EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A5A419E61A45847C00F336EE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A5A419E71A45847D00F336EE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A5A419E81A45847E00F336EE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5E1101D1A447BCF00FA46B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CTAssetsPickerController.strings"; sourceTree = "<group>"; };
 		AD309FC619E67B7500BFCE8B /* CTAssetsPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerCommon.h; sourceTree = "<group>"; };
 		AD58798218E54F0C00B5773D /* CTAssetsGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGroupViewController.h; sourceTree = "<group>"; };
@@ -221,6 +226,7 @@
 				AD58799A18E5556700B5773D /* Categories */,
 				AD7D990E1978FE17002A2E4C /* CTAssetsPicker.xcassets */,
 				AD68F6991A09FA5700097018 /* CTAssetsPickerController.strings */,
+				A5A419E51A45847600F336EE /* Localizable.strings */,
 			);
 			path = CTAssetsPickerController;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD68F6971A09FA5700097018 /* CTAssetsPickerController.strings in Resources */,
+				A5A419E31A45847600F336EE /* Localizable.strings in Resources */,
 				AD7D990F1978FE17002A2E4C /* CTAssetsPicker.xcassets in Resources */,
 				ADE31DA517EFF08C008958B8 /* Images.xcassets in Resources */,
 				ADE31D9417EFF08C008958B8 /* InfoPlist.strings in Resources */,
@@ -338,6 +345,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A5A419E51A45847600F336EE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A419E41A45847600F336EE /* en */,
+				A5A419E61A45847C00F336EE /* zh-Hant */,
+				A5A419E71A45847D00F336EE /* zh-Hans */,
+				A5A419E81A45847E00F336EE /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		AD68F6991A09FA5700097018 /* CTAssetsPickerController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
