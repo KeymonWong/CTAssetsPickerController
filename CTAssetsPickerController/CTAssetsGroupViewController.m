@@ -121,14 +121,14 @@
     if (self.picker.showsCancelButton)
     {
         self.navigationItem.leftBarButtonItem =
-        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Cancel", @"Localizable", nil)
+        [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Cancel", @"YHAssetsPickerController", nil)
                                          style:UIBarButtonItemStylePlain
                                         target:self.picker
                                         action:@selector(dismiss:)];
     }
     
     self.navigationItem.rightBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Done", @"Localizable", nil)
+    [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTable(@"Done", @"YHAssetsPickerController", nil)
                                      style:UIBarButtonItemStyleDone
                                     target:self.picker
                                     action:@selector(finishPickingAssets:)];
@@ -147,7 +147,7 @@
 - (void)localize
 {
     if (!self.picker.title)
-        self.title = NSLocalizedStringFromTable(@"Photos", @"CTAssetsPickerController", nil);
+        self.title = NSLocalizedStringFromTable(@"Photos", @"YHAssetsPickerController", nil);
     else
         self.title = self.picker.title;
 }
