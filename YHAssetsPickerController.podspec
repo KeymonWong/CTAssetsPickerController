@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.author      		= { "Yijun Hunag" => "11.eleven.huang@gmail.com" }
   s.platform     		= :ios, '7.0'
   s.source       		= { :git => "https://github.com/eleven-huang/CTAssetsPickerController.git", :tag => "v3.1" }
-  s.source_files 		= "CTAssetsPickerController/*.{h,m}"
-  s.resources     		= "CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png", "CTAssetsPickerController/*/CTAssetsPickerController.strings"  
+  s.source_files 		= "CTAssetsPickerController/*.{h,m}", "CTAssetsPickerController/*/CTAssetsPickerController.strings"
+  s.resources     		= "CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png"  
   s.frameworks		    	= "AssetsLibrary", "MediaPlayer"
   s.requires_arc		= true
 end
