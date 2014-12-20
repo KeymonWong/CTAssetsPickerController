@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.homepage     		= "https://github.com/eleven-huang/CTAssetsPickerController"
   s.screenshot  		= "https://raw.github.com/chiunam/CTAssetsPickerController/master/Screenshot.png"
   s.license     		= { :type => 'MIT', :file => 'LICENSE' }
-  s.author      		= { "Yijun Huang" => "11.eleven.huang@gmail.com" }
+  s.author      		= { "Yijun Hunag" => "11.eleven.huang@gmail.com" }
   s.platform     		= :ios, '7.0'
   s.source       		= { :git => "https://github.com/eleven-huang/CTAssetsPickerController.git", :tag => "v3.3" }
   s.source_files 		= "CTAssetsPickerController/*.{h,m}"
   s.ios.resource_bundles  = { 'YHAssetsPickerController-iOS' => ['CTAssetsPickerController/*.lproj']}
-   s.resource     		= "CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png"
+   s.resource     		= 'CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png'
   s.frameworks		    	= "AssetsLibrary", "MediaPlayer"
   s.requires_arc		= true
 end

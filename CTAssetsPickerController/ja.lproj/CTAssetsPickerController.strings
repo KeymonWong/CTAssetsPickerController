@@ -1,6 +1,6 @@
 /* Navigation bar buttons */
-"Cancel" = "Cancel";
-"Done" = "Done";
+"Cancel" = "取消";
+"Done" = "完成";
 
 /* Default title */
 "Photos" = "Photos";

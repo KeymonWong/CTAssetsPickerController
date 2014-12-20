@@ -6,11 +6,11 @@
 "Photos" = "相册";
 
 /* No. of selected */
-"%ld Photo Selected" = "已选择%ld张图片";
-"%ld Photos Selected" = "已选择%ld张图片";
-"%ld Video Selected" = "已选择%ld个视频";
-"%ld Videos Selected" = "已选择%ld个视频";
-"%ld Items Selected" = "已选择%ld个项目";
+"%ld Photo Selected" = "已选择 %ld 张图片";
+"%ld Photos Selected" = "已选择 %ld 张图片";
+"%ld Video Selected" = "已选择 %ld 个视频";
+"%ld Videos Selected" = "已选择 %ld 个视频";
+"%ld Items Selected" = "已选择 %ld 个项目";
 
 /* Album's footer */
 "%ld Photos" = "%ld张图片";
@@ -28,8 +28,8 @@
 "No Photos or Videos" = "没有照片或视频";
 
 /* The parameter will be replaced by the device model name */
-"You can take photos and videos using the camera, or sync photos and videos onto your %@\nusing iTunes." = "您可以用照相机拍摄照片或者视频，或者用iTunes将相片或者视频同步到%@。";
-"You can sync photos and videos onto your %@ using iTunes." = "您可以用iTunes将照片和视频同步到%@。";
+"You can take photos and videos using the camera, or sync photos and videos onto your %@\nusing iTunes." = "你可以用相机拍摄照片或视频，或者用iTunes将相片或者视频同步到%@。";
+"You can sync photos and videos onto your %@ using iTunes." = "你可以用iTunes将照片和视频同步到%@。";
 
 /* Accessibility labels */
 "Photo" = "照片";
