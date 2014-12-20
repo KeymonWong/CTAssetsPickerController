@@ -5,4 +5,4 @@ Add localized string for Chinese simplifield language.
 
 #Install
 
-		pod 'YHAssetsPickerController'
+		pod 'YHAssetsPickerController', '~> 3.6'
