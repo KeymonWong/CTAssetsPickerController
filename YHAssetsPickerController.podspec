@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         		= "YHAssetsPickerController"
-  s.version      		= "3.3"
+  s.version      		= "3.4"
   s.summary      		= "iOS control that allows picking multiple photos and videos from user's photo library."
 
   s.description  		= <<-DESC
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.license     		= { :type => 'MIT', :file => 'LICENSE' }
   s.author      		= { "Yijun Hunag" => "11.eleven.huang@gmail.com" }
   s.platform     		= :ios, '7.0'
-  s.source       		= { :git => "https://github.com/eleven-huang/CTAssetsPickerController.git", :tag => "v3.3" }
+  s.source       		= { :git => "https://github.com/eleven-huang/CTAssetsPickerController.git", :tag => "v3.4" }
   s.source_files 		= "CTAssetsPickerController/*.{h,m}"
-  s.ios.resource_bundles  = { 'YHAssetsPickerController-iOS' => ['CTAssetsPickerController/*.lproj']}
+  s.ios.resource_bundles  = { 'YHAssetsPickerController-iOS' => ['CTAssetsPickerController/*.bundle']}
    s.resource     		= 'CTAssetsPickerController/CTAssetsPicker.xcassets/*/*.png'
   s.frameworks		    	= "AssetsLibrary", "MediaPlayer"
   s.requires_arc		= true
